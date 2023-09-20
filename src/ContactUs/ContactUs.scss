@@ -1,0 +1,68 @@
+$primary-color: #e6c405;
+
+#contactUs {
+
+    .container {
+        .signboard {
+            display: flex;
+            align-items: center;
+
+            .sign-text {
+                color: rgba($color: #000000, $alpha: 0.6);
+            }
+
+            .sign-line {
+                display: inline-block;
+                width: 100px;
+                height: 1px;
+                border: 1px solid $primary-color;
+                margin-right: 10px;
+            }
+        }
+
+        .title {
+            font-size: 2.3rem;
+        }
+
+        .map {
+            width: 100%;
+            margin: 3rem 0;
+        }
+
+        .contact-us {
+            display: flex;
+            justify-content: space-between;
+
+            .cards-container {
+                width: 30%;
+                height: 500px;
+            }
+
+            form {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+
+                .form-child {
+                    margin-bottom: 2rem;
+                }
+
+                .row {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    .name, .email {
+                        width: 49%;
+                    }
+                }
+
+                .btn-send {
+                    margin: 0 auto 2rem;
+                }
+
+            }
+        }
+
+    }
+}

@@ -1,0 +1,31 @@
+$primary-color: #e6c405;
+
+#counter {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .counter-img {
+            width: 42%;
+            height: 480px;
+            background: $primary-color url("../../public/imgs/counter.jpg") center center/cover;
+        }
+
+        .counter-text {
+            width: 48%;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+
+            .counts-container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 1rem;
+            }
+
+        }
+    }
+}

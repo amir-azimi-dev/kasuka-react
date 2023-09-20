@@ -1,0 +1,31 @@
+$primary-color: #e6c405;
+
+#services {
+    margin: 4rem 0;
+
+    .container {
+        .signboard {
+            display: flex;
+            align-items: center;
+
+            .sign-text {
+                color: rgba($color: #000000, $alpha: 0.6);
+            }
+
+            .sign-line {
+                display: inline-block;
+                width: 100px;
+                height: 1px;
+                border: 1px solid $primary-color;
+                margin-right: 10px;
+            }
+        }
+
+        .services-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 2rem;
+            margin: 3rem 0;
+        }
+    }
+}

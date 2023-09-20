@@ -1,0 +1,21 @@
+$primary-color: #e6c405;
+
+#ads {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .ads-img {
+            width: 50%;
+            height: 500px;
+        }
+
+        .ads-logos-container {
+            width: 44%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+}

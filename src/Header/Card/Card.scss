@@ -1,0 +1,28 @@
+$primary-color: #e6c405;
+
+#card {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba($color: #fff, $alpha: 0.2);
+    transition: all 0.2s linear;
+
+    &:hover {
+        border-color: $primary-color;
+    }
+    
+    .card-logo {
+        color: $primary-color;
+        font-size: 1.8rem;
+        margin-bottom: 14px;
+
+    }
+    p {
+        font-weight: bold;
+        transition: all 0.2s linear;
+        cursor: pointer;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}

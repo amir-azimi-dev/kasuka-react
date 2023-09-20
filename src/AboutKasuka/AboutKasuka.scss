@@ -1,0 +1,32 @@
+$primary-color: #e6c405;
+
+#aboutKasuka {
+    margin: 2rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        .about-text {
+            width: 44%;
+
+            .paragraph {
+                text-indent: 15px;
+                text-align: right;
+            }
+
+            .tick {
+                margin: 1rem 0;
+
+                .fa-solid {
+                    color: $primary-color;
+                }
+            }
+        }
+
+        .about-img {
+            width: 53%;
+        }
+    }
+}

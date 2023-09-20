@@ -1,0 +1,21 @@
+$primary-color: #e6c405;
+
+#propsLogos {
+    margin: 5rem 0;
+    
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        .prop-logo {
+            width: 130px;
+            filter: grayscale(1);
+            transition: all 0.3s;
+
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+    }
+}

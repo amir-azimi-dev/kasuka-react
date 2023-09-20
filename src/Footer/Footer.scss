@@ -1,0 +1,138 @@
+$primary-color: #e6c405;
+
+#footer {
+    color: #fff;
+    
+    .main {
+        background-color: #333;
+        padding: 2rem 0;
+
+        .container {
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+
+            .kasuka-col {
+                width: 16%;
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1rem;
+
+                    cursor: pointer;
+                    font-size: 2rem;
+
+                    img {
+                        width: 56px;
+                        height: 56px;
+                    }
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 0.9rem;
+                    margin-bottom: 0.2rem;
+                }
+
+                .medias-container {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 20px;
+
+                    .media {
+                        width: 34px;
+                        height: 34px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #444;
+                        border-radius: 5px;
+                        transition: all 0.2s linear;
+
+                        &:hover {
+                            background-color: $primary-color;
+
+                            i {
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .links-col {
+                width: 25%;
+                display: flex;
+                justify-content: space-between;
+
+                .col {
+                    .links {
+                        list-style-type: none;
+
+                        .link {
+                            margin: 4px 0;
+
+                            i {
+                                font-size: 0.5rem;
+                                color: $primary-color;
+                            }
+                           
+                            a {
+                                text-decoration: none;
+                                color: #fff;
+                                font-size: 0.85rem;
+                                font-weight: 500;
+                                transition: all 0.3s linear;
+
+                                &:hover {
+                                    color: $primary-color;
+                                }
+                            }
+                        } 
+                    }
+                }
+            }
+
+            .news-col {
+
+                .paragraph {
+                    font-size: 0.85rem;
+                    font-weight: 500;
+                    margin: 1rem 0 2rem;
+                }
+
+                .input-group {
+                    display: flex;
+                    margin: 1rem 0;
+
+                    input {
+                        width: 100%;
+                        outline: none;
+                        padding: 0 10px;
+                    }
+
+                    button {
+                        border-radius: 5px 0 0 5px;
+                        width: 150px;
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .rights {
+        background-color: #222;
+        padding: 1rem 0;
+
+        .container p {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    }
+}

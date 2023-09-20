@@ -1,0 +1,35 @@
+$primary-color: #e6c405;
+
+#serviceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba($color: #000000, $alpha: 0.05);
+    padding: 3rem;
+    text-align: center;
+    transition: all 0.3s linear;
+
+    &:hover {
+        transform: translateY(-15px);
+        box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.1);
+    }
+
+    .logo .fa-solid {
+        background-color: $primary-color;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        border-radius: 5px;
+    }
+
+    .title {
+        margin: 2rem 0;
+        cursor: pointer;
+        transition: all 0.3s linear;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
